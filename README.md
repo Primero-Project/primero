@@ -8,7 +8,7 @@ Team Name: Primero
 4.Swati
 5.Gabi
 ## Project Details
-Primero is a course market place where users buy courses in form of NFTs(Non Fungible Tokens) that live on the Ethereum Blockchain.The aim of this project is to mitigate course piracy that takes place in most online course platforms.
+Primero is a decentralized course market place where users buy courses in form of NFTs(Non Fungible Tokens) that live on the Ethereum Blockchain.The aim of this project is to mitigate course piracy that takes place in most centralized course platforms.
 
 Its made up of a number modules and components:
 ### Backend
