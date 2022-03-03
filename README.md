@@ -13,7 +13,7 @@ Primero is a decentralized course market place where users buy courses in form o
 Its made up of a number modules and components:
 ### Backend
 MarketPlace & Course NFT (Smart contract)
-IPFS(Decentralized storeage system)
+IPFS(Decentralized storage system)
 ### FrontEnd(NextJs and Tailwind css)Modules
 Homepage 
 Dashboard (showing sold and available courses)
