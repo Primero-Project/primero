@@ -55,6 +55,9 @@ export default function MyAssets() {
     console.log("nft:", nft);
     router.push(`/resell-nft?id=${nft.tokenId}&tokenURI=${nft.tokenURI}`);
   }
+   function goToCourse(){
+  router.push('/Course')
+  }
   if (loadingState === "loaded" && !nfts.length)
     return <h1 className="py-10 px-20 text-3xl"> No NFTs owned </h1>;
   return (
@@ -80,7 +83,7 @@ export default function MyAssets() {
                 </button>
                 <button
                   className="mt-4 w-full bg-blue-500 text-white font-bold py-2 px-12 rounded"
-                  onClick={() => listNFT(nft)}
+                  onClick={() => goToCourse()}
                 >
                   {" "}
                   Take me to course{" "}
