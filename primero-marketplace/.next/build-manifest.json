@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/EtX4A3Btujeo2cjfuli-x/_buildManifest.js",
-    "static/EtX4A3Btujeo2cjfuli-x/_ssgManifest.js",
-    "static/EtX4A3Btujeo2cjfuli-x/_middlewareManifest.js"
+    "static/UnFNZGGFjM4TQaIpJwT7Y/_buildManifest.js",
+    "static/UnFNZGGFjM4TQaIpJwT7Y/_ssgManifest.js",
+    "static/UnFNZGGFjM4TQaIpJwT7Y/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
@@ -18,7 +18,7 @@
       "static/chunks/583-429345223a90cb1e.js",
       "static/chunks/669-02d8c27f7cae9417.js",
       "static/chunks/726-d32152da211b4272.js",
-      "static/chunks/pages/index-04b31881026fa7dc.js"
+      "static/chunks/pages/index-830952a9bc48a527.js"
     ],
     "/_app": [
       "static/chunks/webpack-5761f3a204ffdf4a.js",
@@ -32,6 +32,13 @@
       "static/chunks/framework-e70c6273bfe3f237.js",
       "static/chunks/main-a054bbf31fb90f6a.js",
       "static/chunks/pages/_error-2280fa386d040b66.js"
+    ],
+    "/course": [
+      "static/chunks/webpack-5761f3a204ffdf4a.js",
+      "static/chunks/framework-e70c6273bfe3f237.js",
+      "static/chunks/main-a054bbf31fb90f6a.js",
+      "static/chunks/4-7249c148fbb9e4db.js",
+      "static/chunks/pages/course-dcf70f88be58d69d.js"
     ],
     "/create-nft": [
       "static/chunks/webpack-5761f3a204ffdf4a.js",
@@ -61,7 +68,7 @@
       "static/chunks/583-429345223a90cb1e.js",
       "static/chunks/669-02d8c27f7cae9417.js",
       "static/chunks/726-d32152da211b4272.js",
-      "static/chunks/pages/my-nfts-3739632c759d69b0.js"
+      "static/chunks/pages/my-nfts-d68b2a6a2f00a4af.js"
     ],
     "/resell-nft": [
       "static/chunks/webpack-5761f3a204ffdf4a.js",
