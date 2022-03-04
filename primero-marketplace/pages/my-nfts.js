@@ -56,7 +56,7 @@ export default function MyAssets() {
     router.push(`/resell-nft?id=${nft.tokenId}&tokenURI=${nft.tokenURI}`);
   }
    function goToCourse(){
-  router.push('/Course')
+  router.push('/course')
   }
   if (loadingState === "loaded" && !nfts.length)
     return <h1 className="py-10 px-20 text-3xl"> No NFTs owned </h1>;
