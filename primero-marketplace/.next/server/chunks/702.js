@@ -9,7 +9,7 @@ exports.modules = {
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "I": () => (/* binding */ marketplaceAddress)
 /* harmony export */ });
-const marketplaceAddress = "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512";
+const marketplaceAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
 
 /***/ }),

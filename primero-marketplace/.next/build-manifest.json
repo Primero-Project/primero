@@ -5,9 +5,9 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/N9uwrecB3dPdpTmDhx5j7/_buildManifest.js",
-    "static/N9uwrecB3dPdpTmDhx5j7/_ssgManifest.js",
-    "static/N9uwrecB3dPdpTmDhx5j7/_middlewareManifest.js"
+    "static/EtX4A3Btujeo2cjfuli-x/_buildManifest.js",
+    "static/EtX4A3Btujeo2cjfuli-x/_ssgManifest.js",
+    "static/EtX4A3Btujeo2cjfuli-x/_middlewareManifest.js"
   ],
   "pages": {
     "/": [
@@ -17,7 +17,7 @@
       "static/chunks/0a6e12db-e9da56509465d570.js",
       "static/chunks/583-429345223a90cb1e.js",
       "static/chunks/669-02d8c27f7cae9417.js",
-      "static/chunks/726-fedff1207f04667f.js",
+      "static/chunks/726-d32152da211b4272.js",
       "static/chunks/pages/index-04b31881026fa7dc.js"
     ],
     "/_app": [
@@ -40,7 +40,7 @@
       "static/chunks/0a6e12db-e9da56509465d570.js",
       "static/chunks/583-429345223a90cb1e.js",
       "static/chunks/10-a98f29ee2d78ba09.js",
-      "static/chunks/726-fedff1207f04667f.js",
+      "static/chunks/726-d32152da211b4272.js",
       "static/chunks/pages/create-nft-34c6738af9582bd6.js"
     ],
     "/dashboard": [
@@ -50,7 +50,7 @@
       "static/chunks/0a6e12db-e9da56509465d570.js",
       "static/chunks/583-429345223a90cb1e.js",
       "static/chunks/669-02d8c27f7cae9417.js",
-      "static/chunks/726-fedff1207f04667f.js",
+      "static/chunks/726-d32152da211b4272.js",
       "static/chunks/pages/dashboard-c0e04f11de900b5b.js"
     ],
     "/my-nfts": [
@@ -60,7 +60,7 @@
       "static/chunks/0a6e12db-e9da56509465d570.js",
       "static/chunks/583-429345223a90cb1e.js",
       "static/chunks/669-02d8c27f7cae9417.js",
-      "static/chunks/726-fedff1207f04667f.js",
+      "static/chunks/726-d32152da211b4272.js",
       "static/chunks/pages/my-nfts-3739632c759d69b0.js"
     ],
     "/resell-nft": [
@@ -70,7 +70,7 @@
       "static/chunks/0a6e12db-e9da56509465d570.js",
       "static/chunks/583-429345223a90cb1e.js",
       "static/chunks/669-02d8c27f7cae9417.js",
-      "static/chunks/726-fedff1207f04667f.js",
+      "static/chunks/726-d32152da211b4272.js",
       "static/chunks/pages/resell-nft-d945ceb69a24acf3.js"
     ]
   },
