@@ -93,7 +93,7 @@ export default function Home() {
               <div className="p-4">
                 <p className="text-2xl font-bold text-black">
                   {" "}
-                  {nft.price}
+                  💰 {nft.price}
                   ETH{" "}
                 </p>{" "}
                 <button
