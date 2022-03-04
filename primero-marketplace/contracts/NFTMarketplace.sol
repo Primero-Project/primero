@@ -12,10 +12,13 @@ contract NFTMarketplace is ERC721URIStorage {
     Counters.Counter private _tokenIds;
     Counters.Counter private _itemsSold;
 
-    uint256 listingPrice = 0.025 ether;
     address payable owner;
+    uint256 listingPrice = 0.0325 ether;
 
-    mapping(uint256 => MarketItem) private idToMarketItem;
+
+    constructor() ERC721("Primero Tokens", "PMT") {
+      owner = payable(msg.sender);
+    }
 
     struct MarketItem {
       uint256 tokenId;
@@ -24,8 +27,10 @@ contract NFTMarketplace is ERC721URIStorage {
       uint256 price;
       bool sold;
     }
+   
+    mapping(uint256 => MarketItem) private idToMarketItem;
 
-    event MarketItemCreated (
+    event CourseItemCreated (
       uint256 indexed tokenId,
       address seller,
       address owner,
@@ -33,9 +38,6 @@ contract NFTMarketplace is ERC721URIStorage {
       bool sold
     );
 
-    constructor() ERC721("Primero Token", "PRMT") {
-      owner = payable(msg.sender);
-    }
 
     /* Updates the listing price of the contract */
     function updateListingPrice(uint _listingPrice) public payable {
@@ -43,7 +45,7 @@ contract NFTMarketplace is ERC721URIStorage {
       listingPrice = _listingPrice;
     }
 
-    /* Returns the listing price of the contract */
+    
     function getListingPrice() public view returns (uint256) {
       return listingPrice;
     }
@@ -63,7 +65,7 @@ contract NFTMarketplace is ERC721URIStorage {
       uint256 tokenId,
       uint256 price
     ) private {
-      require(price > 0, "Price must be at least 1 wei");
+      require(price > 0, "You cant list a free item 1wei >");
       require(msg.value == listingPrice, "Price must be equal to listing price");
 
       idToMarketItem[tokenId] =  MarketItem(
@@ -75,7 +77,7 @@ contract NFTMarketplace is ERC721URIStorage {
       );
 
       _transfer(msg.sender, address(this), tokenId);
-      emit MarketItemCreated(
+      emit CourseItemCreated(
         tokenId,
         msg.sender,
         address(this),
@@ -97,13 +99,13 @@ contract NFTMarketplace is ERC721URIStorage {
       _transfer(msg.sender, address(this), tokenId);
     }
 
-    /* Creates the sale of a marketplace item */
-    /* Transfers ownership of the item, as well as funds between parties */
+    
+    /* Transfers ownership of the CourseNFT and funds owner */
     function createMarketSale(
       uint256 tokenId
       ) public payable {
       uint price = idToMarketItem[tokenId].price;
-      require(msg.value == price, "Please submit the asking price in order to complete the purchase");
+      require(msg.value == price, "Purchase cant be completed without the input of stated price");
       idToMarketItem[tokenId].owner = payable(msg.sender);
       idToMarketItem[tokenId].sold = true;
       idToMarketItem[tokenId].seller = payable(address(0));
