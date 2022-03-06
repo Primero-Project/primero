@@ -8,7 +8,7 @@ const Hero = () => {
           <Col lg={6}>
             <div className="pr-lg-5">
               <h3 className="text-uppercase text-primary font-weight-large f-14 mb-4">
-                WORLD'S FIRST DECENTRALIZED EDUCATIONAL APP
+                WORLD FIRST DECENTRALIZED EDUCATIONAL APP
               </h3>
               <h1 className="mb-4 font-weight-normal line-height-1_4">
                 Buy a course as an NFT!{" "}
@@ -19,7 +19,7 @@ const Hero = () => {
                 course at your pace and get a POAP afterwards! You can also list
                 your course as an NFT with first timer purchase advantage!
               </p>
-              <a href="/dashboard" className="btn btn-warning">
+              <a href="#" className="btn btn-warning">
                 Buy your first decentralized course now{" "}
                 <span className="ml-2 right-icon">&#8594;</span>
               </a>

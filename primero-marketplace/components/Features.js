@@ -95,7 +95,7 @@ const Feature = () => {
               </h3>
               <br />
               <p className="text-muted">
-                Lorem Ipsum has been the industry's standard dummy text ever
+                Lorem Ipsum has been the industrys standard dummy text ever
                 since the 1500s, when an unknown printer took a galley of type
                 and scrambled it to make a type specimen book
               </p>
