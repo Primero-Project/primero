@@ -20,7 +20,7 @@ export default function Home() {
   }, []);
   async function loadNFTs() {
     /* create a generic provider and query for unsold market items */
-    const provider = new ethers.providers.JsonRpcProvider();
+    const provider = new ethers.providers.Web3Provider(web3.currentProvider);
     const contract = new ethers.Contract(
       marketplaceAddress,
       NFTMarketplace.abi,
