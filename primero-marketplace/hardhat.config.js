@@ -6,7 +6,7 @@ const RINKEBY_KEY = "3af5eaccf2c413d190b63e64c86b26e38c1a5f502d8ac780ef5184ed12f
 
 
 module.exports = {
-  defaultNetwork: "hardhat",
+  
   networks: {
     hardhat: {
       chainId: 1337
