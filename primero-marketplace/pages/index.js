@@ -1,7 +1,12 @@
 import { ethers } from "ethers";
-import { useEffect, useState } from "react";
+import { useEffect, useState, React } from "react";
 import axios from "axios";
 import Web3Modal from "web3modal";
+import Layout from "../components/Layout";
+import Header from "../components/Header";
+import Hero from "../components/Hero";
+import Features from "../components/Features";
+
 
 import { marketplaceAddress } from "../config";
 
@@ -72,7 +77,11 @@ export default function Home() {
   return (
     <div className="flex justify-center">
       <div className="px-4" style={{ maxWidth: "1600px" }}>
-        <p className="flex justify-center"> All Courses</p>
+        <Layout pageTitle="Landing Page Nextjs">
+          <Hero />
+          <Features />
+        </Layout>
+        <p className="flex justify-center text-primary"> All Courses</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
           {" "}
           {nfts.map((nft, i) => (
