@@ -7,7 +7,6 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import Features from "../components/Features";
 
-
 import { marketplaceAddress } from "../config";
 
 import NFTMarketplace from "../artifacts/contracts/NFTMarketplace.sol/NFTMarketplace.json";
@@ -77,11 +76,14 @@ export default function Home() {
   return (
     <div className="flex justify-center">
       <div className="px-4" style={{ maxWidth: "1600px" }}>
-        <Layout pageTitle="Landing Page Nextjs">
+        <Layout pageTitle="Primero">
           <Hero />
           <Features />
         </Layout>
-        <p className="flex justify-center text-primary"> All Courses</p>
+        <p className="flex justify-center text-primary font-bold text-2xl">
+          {" "}
+          All Courses
+        </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4">
           {" "}
           {nfts.map((nft, i) => (

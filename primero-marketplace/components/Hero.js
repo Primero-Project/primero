@@ -7,13 +7,13 @@ const Hero = () => {
         <Row className="align-items-center">
           <Col lg={6}>
             <div className="pr-lg-5">
-              <h3 className="text-uppercase text-primary font-weight-large f-14 mb-4">
+              <h3 className="text-uppercase text-primary font-weight-large f-14 mb-4 font-bold text-2xl">
                 WORLD FIRST DECENTRALIZED EDUCATIONAL APP
               </h3>
-              <h1 className="mb-4 font-weight-normal line-height-1_4">
-                Buy a course as an NFT!{" "}
+              <h1 className="mb-4 font-weight-normal line-height-1_4 font-bold text-2xl">
+                Buy/List a course as an NFT!{" "}
               </h1>
-              <p className="text-muted mb-4 pb-2">
+              <p className="text-muted mb-4 pb-2 text-xl">
                 Welcome to Primero! The first decentralized course purchase
                 platform. On Primero, you can buy a course as an NFT, finish the
                 course at your pace and get a POAP afterwards! You can also list
@@ -21,7 +21,7 @@ const Hero = () => {
               </p>
               <a href="#" className="btn btn-warning">
                 Buy your first decentralized course now{" "}
-                <span className="ml-2 right-icon">&#8594;</span>
+                <span className="ml-2 right-icon text-warning">&#8594;</span>
               </a>
             </div>
           </Col>
