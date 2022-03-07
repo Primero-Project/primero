@@ -17,22 +17,11 @@ const Hero = () => {
               <p className="mb-4 font-weight-normal line-height-1_4 font-bold text-xl">
                 Learn New Skills by Buying and Selling Courses as NFTs{" "}
               </p>
-              <p className="text-muted mb-4 pb-2 text-lg">
+              <p className="text-muted mb-4 pb-2 text-xl">
                 Welcome to Primero! Primero is the first decentralized web3
                 platform and marketplace for online learning and teaching that
                 revolutionizes access to courses and skills in developing
                 countries in Africa and Latin America.
-                <br />
-                <br />
-                As a Student, on Primero you can buy a course as an NFT, finish
-                the course at your own pace, and get an NFT certificate
-                afterwards! You can also list and sell your course as an NFT
-                with a first timer purchase advantage!
-                <br />
-                <br />
-                As an Instructor, Primero offers you the first web3 platform to
-                upload your courses, monitor your student progress, and earn new
-                revenue streams in crypto for the content you created.
                 <br />
                 <br />
                 Join Primero to create the first web3 learning and teaching

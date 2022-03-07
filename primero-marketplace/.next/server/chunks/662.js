@@ -137,15 +137,9 @@ const Hero = ()=>{
                                     ]
                                 }),
                                 /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                                    className: "text-muted mb-4 pb-2 text-lg",
+                                    className: "text-muted mb-4 pb-2 text-xl",
                                     children: [
                                         "Welcome to Primero! Primero is the first decentralized web3 platform and marketplace for online learning and teaching that revolutionizes access to courses and skills in developing countries in Africa and Latin America.",
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                        "As a Student, on Primero you can buy a course as an NFT, finish the course at your own pace, and get an NFT certificate afterwards! You can also list and sell your course as an NFT with a first timer purchase advantage!",
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
-                                        "As an Instructor, Primero offers you the first web3 platform to upload your courses, monitor your student progress, and earn new revenue streams in crypto for the content you created.",
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
                                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("br", {}),
                                         "Join Primero to create the first web3 learning and teaching ecosystem that will enable future generations to prosper and develop in Africa and Latin America. Together, WE CAN!"

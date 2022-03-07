@@ -94,9 +94,18 @@ const Feature = () => {
                 <p className="text-primary font-bold text-2xl">Features</p>
               </h3>
               <br />
-              <p className="text-muted text-xl">
-                Primero gives you access to premium courses. Choose from 183,000
-                online video courses with new additions published every month
+              <p className="text-muted text-lg">
+                As a Student, on Primero you can buy a course as an NFT, finish
+                the course at your own pace, and get an NFT certificate
+                afterwards! You can also list and sell your course as an NFT
+                with a first timer purchase advantage!{" "}
+              </p>
+              <br />
+              <p className="text-muted text-lg">
+                {" "}
+                As an Instructor, Primero offers you the first web3 platform to
+                upload your courses, monitor your student progress, and earn new
+                revenue streams in crypto for the content you created.
               </p>
             </div>
           </Col>
