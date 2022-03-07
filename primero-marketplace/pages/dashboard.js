@@ -39,6 +39,7 @@ export default function CreatorDashboard() {
           tokenId: i.tokenId.toNumber(),
           seller: i.seller,
           owner: i.owner,
+          name: meta.data.name,
           image: meta.data.image,
         };
         return item;
@@ -59,7 +60,10 @@ export default function CreatorDashboard() {
             <div key={i} className="border shadow rounded-xl overflow-hidden">
               <img src={nft.image} className="rounded" />
               <div className="p-4 bg-white">
-                <p className="text-2xl font-bold text-black">
+                <p className="text-2xl font-bold text-primary">
+                  Course Title - {nft.name}
+                </p>
+                <p className="text-2xl font-bold text-primary">
                   Price - {nft.price} Eth
                 </p>
               </div>
