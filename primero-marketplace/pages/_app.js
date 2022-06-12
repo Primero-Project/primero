@@ -1,7 +1,7 @@
 /* pages/_app.js */
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/globals.css";
-import "../styles/header.css";
+import "../styles/Header.css";
 import "@rainbow-me/rainbowkit/styles.css";
 import Link from "next/link";
 import { useState } from "react";
