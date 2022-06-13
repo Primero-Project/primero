@@ -17,3 +17,6 @@ Homepage
 Dashboard (showing sold and available courses)
 Course Upload Module
 
+###Usage
+Connect webapp to the Rinkeby testnet 
+
