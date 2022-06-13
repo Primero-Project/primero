@@ -17,6 +17,10 @@ Homepage
 Dashboard (showing sold and available courses)
 Course Upload Module
 
-###Usage
+### Usage
 Connect webapp to the Rinkeby testnet 
+
+To view All Courses, navigate down to view courses
+
+To create a course, click on create course to get started
 
