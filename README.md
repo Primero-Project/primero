@@ -1,10 +1,10 @@
-# primero
+# Primero3
 ## Web3Con Hackathon Hosted By Developer_DAO
 Team Name: Primero
 ## Team Members
 1.Busayo
 2.Fatma
-3.Gabi
+3.GabiS
 ## Project Details
 Primero is a decentralized course market place where users buy courses in form of NFTs(Non Fungible Tokens) that live on the Ethereum Blockchain.The aim of this project is to mitigate course piracy that takes place in most centralized course platforms.
 
