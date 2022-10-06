@@ -1,8 +1,7 @@
 # Primero3: Decentralized Education For Africa and Latin America
 #
-#**MVP**: https://primero-nft.netlify.app
-#**Demo Video**: https://www.loom.com/share/3b3274be07394b15b77203e48f20b003
-
+# MVP: https://primero-nft.netlify.app
+# Demo Video: https://www.loom.com/share/3b3274be07394b15b77203e48f20b003
 #
 ## Web3Con Hackathon Hosted By Developer_DAO
 Team Name: Primero
