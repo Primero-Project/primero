@@ -3,6 +3,7 @@ const fs = require('fs');
 // const infuraId = fs.readFileSync(".infuraid").toString().trim() || "";
 //dont a key to your main accounts
 const RINKEBY_KEY = "3af5eaccf2c413d190b63e64c86b26e38c1a5f502d8ac780ef5184ed12f2b0e4"
+const GOERLI_KEY = "EhJMit1AMH92VPMDzrroT0iG5weadUht"
 
 
 module.exports = {
@@ -15,6 +16,10 @@ module.exports = {
       //url:https://eth-rinkeby.alchemyapi.io/v2/${ALCHEMY_API_KEY}
       url: `https://eth-rinkeby.alchemyapi.io/v2/eRPK-XANyIankxAbgOD_YIDYZxeqDD_f`,
       accounts: [RINKEBY_KEY]
+    },
+    goerli: {
+      url: `https://eth-goerli.g.alchemy.com/v2/EhJMit1AMH92VPMDzrroT0iG5weadUht`,
+      accounts: [GOERLI_KEY]
     },
     /*
      /*mumbai: {
